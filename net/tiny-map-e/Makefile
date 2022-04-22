@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright 2022, CZ.NIC z.s.p.o. (https://www.nic.cz/)
+
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tiny-map-e
@@ -9,7 +12,8 @@ PKG_SOURCE_DATE:=2013-02-12
 PKG_SOURCE_VERSION:=78962f952c9a4cf75707ce651548dda50e9d6e92
 PKG_MIRROR_HASH:=7bc0e3b5bec4857eefbd5b83d408f329942145837f6dea86195739aead7d7f9e
 
-# TODO: add maintainer and license
+# TODO: add maintainer
+# tiny-map-e license info missing from source git repo
 
 include $(INCLUDE_DIR)/package.mk
 
