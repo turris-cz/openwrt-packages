@@ -8,12 +8,12 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/edenden/tiny-map-e.git
-PKG_SOURCE_DATE:=2013-02-12
-PKG_SOURCE_VERSION:=78962f952c9a4cf75707ce651548dda50e9d6e92
-PKG_MIRROR_HASH:=7bc0e3b5bec4857eefbd5b83d408f329942145837f6dea86195739aead7d7f9e
+PKG_SOURCE_DATE:=2022-04-23
+PKG_SOURCE_VERSION:=fc742e0278c63ef5acdc7e6f26e941d012bb6957
+PKG_MIRROR_HASH:=d2d280d1a0c531f6e1fe20af49bafdbe61d42d573bcef4b11fd57cca2febca90
 
 # TODO: add maintainer
-# tiny-map-e license info missing from source git repo
+PKG_LICENSE:=MIT
 
 include $(INCLUDE_DIR)/package.mk
 
